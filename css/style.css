@@ -1,0 +1,68 @@
+h1 {
+    text-align: center;
+    text-decoration: underline wavy black 3px;
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+    border-top: 7px double gold;
+    border-bottom: 7px double gold;
+}
+
+.item {
+    width: 18%;
+    padding: 25px 0px;
+    
+}
+
+#image img {
+    display: block;
+    height: 100px;
+    width: auto;
+    margin: 20px;
+}
+
+#songName p {
+    font-size: 18px;
+    height: 100px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+#songArtist p {
+    font-size: 18px;
+    height: 100px;
+    margin: 20px;
+}
+
+#songLength p {
+    font-size: 16px;
+    height: 100px;
+    margin: 20px;
+    text-align: right;
+}
+
+#link a {
+    display: block;
+    font-size: 18px;
+    height: 100px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+#nav {
+    width: 75%;
+    margin: 0 auto 20px auto;
+    font-size: 18px;
+}
+
+input {
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+button {
+    font-size: 14px;
+    padding: 5px 10px;
+}

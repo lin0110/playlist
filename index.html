@@ -6,13 +6,23 @@
         <link type="text/css" rel="stylesheet" href="css/style.css" />
     </head>
     <body>
-        <input><button>Add</button>
-        <div id="songName"> <!--<ol class="list"></ol>--></div>
-        <div id="songArtist"></div>
-        <div id="songLength"></div>
-        <div id="image"></div>
-        <div id="link"></div>
-
+        <h1>Empty Playlist</h1>
+        <div id="nav">
+            <p>Add a new song:</p>
+            <input placeholder="Song Name" id="nameInput">
+            <input placeholder="Artist Name" id="artistInput">
+            <input placeholder="Song Length" id="lengthInput">
+            <input placeholder="Image URL" id="imageInput">
+            <input placeholder="Song Address" id="linkInput">
+            <button id="add">Add</button>
+        </div>
+        <div id="content">
+            <div id="image" class="item"></div>
+            <div id="songName" class="item"></div>
+            <div id="songArtist" class="item"></div>
+            <div id="songLength" class="item"></div>  
+            <div id="link" class="item"></div>
+        </div>
         <!-- jQuery -->
         <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
         <!-- Your Javascript -->
